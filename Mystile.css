@@ -1,0 +1,35 @@
+/*Selector Universal*/
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*Selector Universal*/
+header, footer{
+    background-color: black;
+}
+
+footer{
+    color: white;
+}
+
+/*Selectores descendentes*/
+article p span{
+    font-size: xx-large;
+    color: brown;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+/*Selector clase*/
+.miClase{
+    background-color: blue;
+}
+
+/*Selector tipo id*/
+#menu{
+    background-color: beige;
+    color: blueviolet>
+}
+
