@@ -32,4 +32,40 @@ article p span{
     background-color: beige;
     color: blueviolet>
 }
+/* Selector Adyacente */
+h1+p{
+   text-decoration: underline;
+}
 
+#miP{
+    text-decoration: none;
+}
+
+/* Selector Pseudo */
+
+.miA:hover, .miB:hover{
+
+    background-color: black;
+    color: blue;
+}
+
+.miA:visited, .miB:visited {
+    background-color: black;
+    color: violet;
+}
+
+img:hover {
+    opacity: 0;
+}
+
+.miClase ::before{
+    background-color: aquamarine;
+    color: black;
+    content: url(/IMG/OIP.jpg);
+
+}
+.miClase:;::first-line{
+    font-size: 20px;
+    color: aqua;
+
+}
